@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@adminjs/express": "^6.1.1",
+    "@adminjs/mongoose": "^4.1.0",
+    "@adminjs/themes": "^1.0.1",
+    "adminjs": "^7.8.17",
+    "body-parser": "^2.2.0",
+    "connect-mongodb-session": "^5.0.0",
+    "crypto": "^1.0.1",
+    "debug": "^4.4.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10",
+    "razorpay": "^2.9.6",
+    "tslib": "^2.8.1"
+  }
+}
