@@ -3,6 +3,6 @@ import {createOrder, createTransaction, getOrdersByUserId} from '../controllers/
 const router = express.Router();
 
 router.post("/transaction",createTransaction);
-router.get("/",getOrdersByUserId);
+router.get("/:userId", getOrdersByUserId);
 router.post("/",createOrder)
 export default router;
