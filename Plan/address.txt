@@ -1,0 +1,108 @@
+
+
+import mongoose from "mongoose";
+
+const addressSchema = new mongoose.Schema(
+  {
+    // User → who owns this address
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
+      index: true, // Faster queries: get all addresses of a user
+    },
+
+    // Full name of person receiving the order
+    fullName: {
+      type: String,
+      required: true,
+      trim: true,
+      maxlength: 60,
+    },
+
+    // Optional alternate delivery phone
+    phone: {
+      type: String,
+      match: [/^[6-9]\d{9}$/, "Invalid Indian mobile number"],
+      default: null,
+    },
+
+    // Address Lines
+    addressLine1: {
+      type: String,
+      required: true,
+      trim: true,
+      maxlength: 120,
+    },
+    addressLine2: {
+      type: String,
+      trim: true,
+      maxlength: 120,
+      default: null,
+    },
+
+    // Landmark helps delivery agents
+    landmark: {
+      type: String,
+      trim: true,
+      maxlength: 120,
+      default: null,
+    },
+
+    // City / State / Country
+    city: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+
+    state: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+
+    country: {
+      type: String,
+      required: true,
+      trim: true,
+      default: "India", // Most Indian ecommerce apps use this as default
+    },
+
+    // PIN code (Indian 6-digit)
+    pinCode: {
+      type: String,
+      required: true,
+      match: [/^[1-9][0-9]{5}$/, "Invalid PIN code"],
+    },
+
+    // Type of address (standard practice)
+    addressType: {
+      type: String,
+      enum: ["home", "work", "other"],
+      default: "home",
+    },
+
+    // Mark as default delivery address
+    isDefault: {
+      type: Boolean,
+      default: false,
+      index: true,
+    },
+
+    // Coordinates (optional)
+    location: {
+      lat: { type: Number, default: null },
+      lng: { type: Number, default: null },
+    },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+// INDEXES
+addressSchema.index({ userId: 1, isDeleted: 1 });
+addressSchema.index({ pinCode: 1 });
+
+export default mongoose.model("Address", addressSchema);

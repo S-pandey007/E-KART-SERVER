@@ -1,6 +1,6 @@
 import User  from '../models/user-model.js'
 import debug from 'debug'
-import generateToken from '../utils/createToken.js'
+import {generateToken} from '../utils/createToken.js'
 const userControllerLog = debug('app.usercontroller')
 const loginOrSignUp = async(req,res)=>{
     const {phone,address}=req.body;

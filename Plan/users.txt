@@ -1,0 +1,107 @@
+// PRODUCTION-READY USER SCHEMA
+// All updates requested + real-world fixes included
+
+import mongoose from "mongoose";
+
+const userSchema = new mongoose.Schema(
+  {
+    // Full name
+    fullName: {
+      type: String,
+      required: true,
+      trim: true,
+      maxlength: 60,
+    },
+
+    // Email — optional, but must be unique when present
+    email: {
+      type: String,
+      lowercase: true,
+      trim: true,
+
+      // 🔥 FIXED: Added unique:true (required with sparse for optional fields)
+      unique: true,
+      sparse: true,
+
+      match: [/^\S+@\S+\.\S+$/, "Invalid email"],
+    },
+
+    // Phone code (e.g., +91)
+    phoneCode: {
+      type: String,
+      required: true,
+    }, // 🔥 FIXED: Missing comma issue resolved
+
+    // Phone number
+    phone: {
+      type: String,
+      required: true,
+      unique: true,
+      match: [/^[6-9]\d{9}$/, "Invalid Indian mobile number"],
+    },
+
+    // Password hash (never returned in queries)
+    passwordHash: {
+      type: String,
+      select: false,
+    },
+
+    profileImage: {
+      type: String,
+      default: null,
+    },
+
+    gender: {
+      type: String,
+      enum: ["male", "female", "other", "prefer-not-to-say"],
+      default: null,
+    },
+
+    dateOfBirth: {
+      type: Date,
+      default: null,
+    },
+
+    // 📍 Verification flags
+    isPhoneVerified: { type: Boolean, default: false },
+  
+
+    isEmailVerified: { type: Boolean, default: false },
+
+    isActive: { type: Boolean, default: true },
+    isBanned: { type: Boolean, default: false },
+
+    role: {
+      type: String,
+      enum: ["customer", "admin", "seller"],
+      default: "customer",
+    },
+
+    loginProvider: {
+      type: String,
+      enum: ["password", "google", "apple", "phone"],
+      default: "password",
+    },
+
+  },
+  {
+    timestamps: true,
+  }
+);
+
+
+// Phone unique index
+userSchema.index({ phone: 1 }, { unique: true });
+
+userSchema.index({ email: 1 }, { unique: true, sparse: true });
+
+// Active users filter
+userSchema.index({ isActive: 1 });
+
+// Role-based queries (admins, sellers)
+userSchema.index({ role: 1 });
+
+// For analytics & user listings
+userSchema.index({ createdAt: -1 });
+
+export default mongoose.model("User", userSchema);

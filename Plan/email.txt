@@ -1,0 +1,7 @@
+otp.template.ts → function returning personalized OTP email HTML
+
+registration.template.ts → welcome email
+
+loginSuccess.template.ts → login notice
+
+deleteAccount.template.ts → confirmation

@@ -1,17 +1,17 @@
 import dotenv from 'dotenv'
 import mongoose from 'mongoose';
-import debug from 'debug';
 import { seedData } from '../seedScript.js';
+import logger from './logger.js';
 dotenv.config()
-const dbLog = debug('app:db');
+
 
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGODB_URI);
-    dbLog(`MongoDB connected: ${conn.connection.host}`);
+    logger.info(`MongoDB connected: ${conn.connection.host}`);
     // seedData();
   } catch (error) {
-    dbLog(`MongoDB connection error: ${error.message}`);
+    logger.error(`MongoDB connection error: ${error.message}`);
     process.exit(1); // Exit process with failure
   }
 };
