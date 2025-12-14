@@ -1,6 +1,6 @@
 import logger from "../../config/logger.js";
 import { generateOtp ,verifyOtp} from "../../services/otp/otp.service.js";
-import { register,login,refreshAccessToken ,logout,resetPassword} from "../../services/auth/auth.service.js";
+import { register,login,refreshAccessToken ,logout,resetPassword,signInWithGoogle} from "../../services/auth/auth.service.js";
 import User from "../../models/user-model.js";
 const sendOtp = async(req , res)=>{
     try {
@@ -148,6 +148,45 @@ const loginController = async(req,res)=>{
     }
 }
 
+// google signin and signup controller
+
+const googleSignInController = async(req,res)=>{
+    try {
+        const {idToken} = req.body;
+        console.log("check body : ",idToken)
+        if(!idToken){
+            logger.warn("googleSignInController warning: ID Token is required");
+            return res.status(400).json({
+                success:false,
+                message:"ID Token is required"
+            })
+        }
+
+        const result = await signInWithGoogle(idToken);
+
+        if(!result.success){
+            logger.warn(`googleSignInController warning: ${result.message}`);
+            return res.status(400).json({
+                success:false,
+                message:result.message
+            })
+        }
+
+        logger.info("googleSignInController: User signed in with Google successfully");
+        return res.status(200).json({
+            success:true,
+            message:"User signed in with Google successfully",
+            data:result.data
+        })
+    } catch (error) {
+        logger.error( error , "googleSignInController error");
+        return res.status(500).json({
+            success:false,
+            message:"Internal server error during Google sign-in"
+        })
+    }
+}
+
 const refreshAccessTokenController = async(req,res)=>{
     try {
         const {refreshToken} = req.body;
@@ -275,5 +314,6 @@ export {
     refreshAccessTokenController,
     logoutController,
     forgotPasswordOTPController,
-    resetPasswordController
+    resetPasswordController,
+    googleSignInController
 }

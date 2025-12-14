@@ -8,6 +8,7 @@ import {
   sendOtp,
   verifyOtpController,
   logoutController,
+  googleSignInController,
 } from "../../controllers/auth/auth.controller.js";
 import { authMiddleware } from "../../middleware/auth.middleware.js";
 const router = express.Router();
@@ -36,4 +37,8 @@ router.post("/forgot-password-otp", forgotPasswordOTPController);
 
 // reset Password route
 router.post("/reset-password", resetPasswordController);
+
+// Google Sign-In route
+router.post("/google-signin", googleSignInController);
+
 export default router;

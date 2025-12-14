@@ -1,9 +1,8 @@
-import dotenv from 'dotenv'
-import mongoose from 'mongoose';
-import { seedData } from '../seedScript.js';
-import logger from './logger.js';
-dotenv.config()
-
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+import { seedData } from "../seedScript.js";
+import logger from "./logger.js";
+dotenv.config();
 
 const connectDB = async () => {
   try {

@@ -22,8 +22,7 @@ const userSchema = new Schema({
     },
     phone:{
         type:String,
-        // required:true,
-        unique:true,
+        trim: true,
     },
      password: {
       type: String,
@@ -67,6 +66,16 @@ const userSchema = new Schema({
 // userSchema.index({ email: 1 }, { unique: true, sparse: true });
 
 userSchema.index({ isActive: 1 });
+userSchema.index(
+  { phone: 1 },
+  {
+    unique: true,
+    partialFilterExpression: {
+      phone: { $exists: true, $ne: null }
+    }
+  }
+);
+
 
 
 const User = mongoose.model("User", userSchema);
@@ -82,3 +91,4 @@ export default User;
 //         type:String
 //     }
 // },{timestamps:true})
+
