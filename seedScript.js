@@ -1,8 +1,10 @@
 import dotenv from 'dotenv';
 import Product from './models/product-model.js'
 import Category from './models/category-model.js'
-import {categoriesData,productData} from './seedData.js'
-
+import {categoriesData} from './seedData.js'
+import { Dataset } from './utils/Data.js';
+import Influencer from './models/InfluencerSchema-model.js';
+import { InfluencerData } from './utils/InfulancerData.js';
 dotenv.config();
 
 async function seedData() {
@@ -18,7 +20,7 @@ async function seedData() {
             return map
         })
 
-        const productWithCategoryIds = productData.map((product)=>({
+        const productWithCategoryIds = Dataset.map((product)=>({
             ...product,
             category:categoriesMap[product.category]
         }))
@@ -31,4 +33,15 @@ async function seedData() {
     }
 }
 
-export {seedData}
+
+async function seedInfulancerData(){
+    try {
+        await Influencer.deleteMany();
+         await Influencer.insertMany(InfluencerData)
+        console.log("infulacer data added")
+    } catch (error) {
+        console.error("Error seeding Infulacer data",error)
+    }
+}
+
+export {seedData,seedInfulancerData}

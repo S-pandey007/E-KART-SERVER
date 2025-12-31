@@ -9,6 +9,8 @@ import productRouter from './routes/Product.js'
 import orderROuter from './routes/Order.js'
 import authRouter from './routes/auth/auth.routes.js'
 import profileRouter from './routes/user/user.routes.js'
+import searchRouter from './routes/search/search.route.js'
+
 import { buildAdminJS } from './config/AdminSetup.js';
 
 import logger from './config/logger.js';
@@ -34,6 +36,7 @@ app.use('/product',productRouter);
 app.use('/order',orderROuter);
 app.use('/auth',authRouter);
 app.use('/my',profileRouter);
+app.use("/search",searchRouter)
 
 const start = async ()=>{
     try{
