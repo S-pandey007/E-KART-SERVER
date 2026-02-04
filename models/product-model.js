@@ -15,7 +15,8 @@ const ProductSchema = new Schema({
     exchangeOffer:{type:String},
     deliveryText:{type:String},
     warranty:{type:String},
-    category:[{type:mongoose.Schema.Types.ObjectId, ref:"Category",index:true}],
+    category: { type: String, required: true, index: true },
+    categoryId: { type: mongoose.Schema.Types.ObjectId, ref: "Category", required: true }
 
 },{timestamps:true})
 

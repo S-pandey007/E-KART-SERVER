@@ -1,13 +1,13 @@
 export const Dataset = [
-
-// Mobile ===========================================================================================================
+  // Mobile ===========================================================================================================
   // MOTOROLA
   {
     name: "MOTOROLA g35 5G (Midnight Black, 128 GB)",
     brand: "Motorola",
-    image: "https://images-eu.ssl-images-amazon.com/images/I/61Krt4z4KmL._AC_UL210_SR210,210_.jpg",
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/I/61Krt4z4KmL._AC_UL210_SR210,210_.jpg",
     rating: 4.3,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "1,12,529",
     assured: true,
     discountPercent: 20,
@@ -21,9 +21,10 @@ export const Dataset = [
   {
     name: "MOTOROLA Edge 40 Neo 5G (Caneel Bay, 256 GB)",
     brand: "Motorola",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzZyJfwosFn6LGjLnMsYTPUBqxKx6YAygrw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzZyJfwosFn6LGjLnMsYTPUBqxKx6YAygrw&s",
     rating: 4.4,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "89,421",
     assured: true,
     discountPercent: 23,
@@ -39,9 +40,10 @@ export const Dataset = [
   {
     name: "REDMI Note 13 5G (Ice Blue, 256 GB)",
     brand: "Redmi",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTewIt6mtFb-dEEtRxUZClMypdz7q--wNKw_Q&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTewIt6mtFb-dEEtRxUZClMypdz7q--wNKw_Q&s",
     rating: 4.4,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "2,45,781",
     assured: true,
     discountPercent: 18,
@@ -57,7 +59,7 @@ export const Dataset = [
     brand: "Redmi",
     image: "https://cdn.moglix.com/p/C9GhSXxqtOyWA-xxlarge.jpg",
     rating: 4.2,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "1,95,332",
     assured: true,
     discountPercent: 26,
@@ -73,9 +75,10 @@ export const Dataset = [
   {
     name: "Samsung Galaxy M14 5G (Berry Blue, 128 GB)",
     brand: "Samsung",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHd0h1PFAb65QQoCJ7I5lAhUmuPlRV8d1gKQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHd0h1PFAb65QQoCJ7I5lAhUmuPlRV8d1gKQ&s",
     rating: 4.2,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "3,10,221",
     assured: true,
     discountPercent: 25,
@@ -91,7 +94,7 @@ export const Dataset = [
     brand: "Samsung",
     image: "https://umiyamobile.com/wp-content/uploads/2025/05/3-71.png",
     rating: 4.3,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "76,542",
     assured: true,
     discountPercent: 17,
@@ -107,9 +110,10 @@ export const Dataset = [
   {
     name: "realme Narzo 60 5G (Mars Orange, 128 GB)",
     brand: "Realme",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT3dO6-ff84mZwBeKluqShvXOvjMa1LuTUBg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT3dO6-ff84mZwBeKluqShvXOvjMa1LuTUBg&s",
     rating: 4.3,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "98,432",
     assured: true,
     discountPercent: 22,
@@ -123,9 +127,10 @@ export const Dataset = [
   {
     name: "realme C55 (Rainforest Green, 128 GB)",
     brand: "Realme",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzl4RyYv0aysQcxhuXCDQdT_9fZSuu8CPO1A&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzl4RyYv0aysQcxhuXCDQdT_9fZSuu8CPO1A&s",
     rating: 4.2,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "1,65,210",
     assured: true,
     discountPercent: 30,
@@ -141,9 +146,10 @@ export const Dataset = [
   {
     name: "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 128 GB)",
     brand: "OnePlus",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv2aWcuydpkh98V-0W0_MtGzoLlXu6bCDqDw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv2aWcuydpkh98V-0W0_MtGzoLlXu6bCDqDw&s",
     rating: 4.2,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "1,20,875",
     assured: true,
     discountPercent: 19,
@@ -157,9 +163,10 @@ export const Dataset = [
   {
     name: "OnePlus Nord CE 3 5G (Aqua Surge, 256 GB)",
     brand: "OnePlus",
-    image: "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/oneplus-nord-4-5g-oasis-green-256gb-8gb-ram-front-back-view.png",
+    image:
+      "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/oneplus-nord-4-5g-oasis-green-256gb-8gb-ram-front-back-view.png",
     rating: 4.4,
-    category: "Mobile",
+    category: "Mobiles",
     ratingCount: "92,410",
     assured: true,
     discountPercent: 21,
@@ -178,7 +185,8 @@ export const Dataset = [
     name: "boAt Rockerz 550 Wireless Headphones",
     brand: "boAt",
     category: "Electronics",
-    image: "https://www.boat-lifestyle.com/cdn/shop/products/64576906-013d-4af9-828a-fc3c69482a8a.png?v=1625046144",
+    image:
+      "https://www.boat-lifestyle.com/cdn/shop/products/64576906-013d-4af9-828a-fc3c69482a8a.png?v=1625046144",
     rating: 4.5,
     ratingCount: "5,87,442",
     assured: true,
@@ -194,7 +202,8 @@ export const Dataset = [
     name: "boAt Airdopes 141 Bluetooth TWS Earbuds",
     brand: "boAt",
     category: "Electronics",
-    image: "https://www.boat-lifestyle.com/cdn/shop/files/Artboard4_0e420743-5ca4-439a-9992-42347e8452b2_1800x.png?v=1747388018",
+    image:
+      "https://www.boat-lifestyle.com/cdn/shop/files/Artboard4_0e420743-5ca4-439a-9992-42347e8452b2_1800x.png?v=1747388018",
     rating: 4.3,
     ratingCount: "6,45,210",
     assured: true,
@@ -212,7 +221,8 @@ export const Dataset = [
     name: "Sony Bravia 43 inch 4K Smart LED TV",
     brand: "Sony",
     category: "Electronics",
-    image: "https://rukminim2.flixcart.com/image/480/640/krme93k0/television/v/o/k/kd-43x80j-kd-43x80j-sony-original-imag5dh7jjarhbp3.jpeg?q=90",
+    image:
+      "https://rukminim2.flixcart.com/image/480/640/krme93k0/television/v/o/k/kd-43x80j-kd-43x80j-sony-original-imag5dh7jjarhbp3.jpeg?q=90",
     rating: 4.6,
     ratingCount: "98,224",
     assured: true,
@@ -228,7 +238,8 @@ export const Dataset = [
     name: "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
     brand: "Sony",
     category: "Electronics",
-    image: "https://rukminim2.flixcart.com/image/480/640/xif0q/headphone/d/5/v/-original-imahgr29e7fzcfgn.jpeg?q=90",
+    image:
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/headphone/d/5/v/-original-imahgr29e7fzcfgn.jpeg?q=90",
     rating: 4.7,
     ratingCount: "45,118",
     assured: true,
@@ -246,7 +257,8 @@ export const Dataset = [
     name: "Samsung 28 inch 4K UHD Monitor",
     brand: "Samsung",
     category: "Electronics",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjONIl8LLxAG_Tj35x2HuREvgaJDqtlMxtA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjONIl8LLxAG_Tj35x2HuREvgaJDqtlMxtA&s",
     rating: 4.4,
     ratingCount: "62,334",
     assured: true,
@@ -262,7 +274,8 @@ export const Dataset = [
     name: "Samsung 65W USB Type-C Fast Charging Adapter",
     brand: "Samsung",
     category: "Electronics",
-    image: "https://images.samsung.com/is/image/samsung/p6pim/in/ep-t6530nbngin/gallery/in-65w-power-adapter-trio-ep-t6530-ep-t6530nbngin-539529006?$684_547_PNG$",
+    image:
+      "https://images.samsung.com/is/image/samsung/p6pim/in/ep-t6530nbngin/gallery/in-65w-power-adapter-trio-ep-t6530-ep-t6530nbngin-539529006?$684_547_PNG$",
     rating: 4.5,
     ratingCount: "1,12,543",
     assured: true,
@@ -280,7 +293,8 @@ export const Dataset = [
     name: "LG 260 L Frost Free Double Door Refrigerator",
     brand: "LG",
     category: "Electronics",
-    image: "https://5.imimg.com/data5/SELLER/Default/2022/11/KC/LS/FI/125978471/lg-260-l-frost-free-double-door-top-mount-3-star-refrigerator.jpeg",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2022/11/KC/LS/FI/125978471/lg-260-l-frost-free-double-door-top-mount-3-star-refrigerator.jpeg",
     rating: 4.4,
     ratingCount: "54,129",
     assured: true,
@@ -296,7 +310,8 @@ export const Dataset = [
     name: "LG 7 Kg 5 Star Fully Automatic Washing Machine",
     brand: "LG",
     category: "Electronics",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5g8Z5sxntJI2oX7uTmnR-LZS2tBhQWC3oIw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5g8Z5sxntJI2oX7uTmnR-LZS2tBhQWC3oIw&s",
     rating: 4.3,
     ratingCount: "48,211",
     assured: true,
@@ -314,7 +329,8 @@ export const Dataset = [
     name: "HP 15s Intel Core i5 12th Gen Laptop",
     brand: "HP",
     category: "Electronics",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE27ZNPEeRcPEBbi0dS5UWvfzt47k5k23Kyw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE27ZNPEeRcPEBbi0dS5UWvfzt47k5k23Kyw&s",
     rating: 4.2,
     ratingCount: "72,998",
     assured: true,
@@ -330,7 +346,8 @@ export const Dataset = [
     name: "HP X1000 Wired Optical Mouse",
     brand: "HP",
     category: "Electronics",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgwJfAb4IJ7UW24_f13hybrMrPNOUlogddhA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgwJfAb4IJ7UW24_f13hybrMrPNOUlogddhA&s",
     rating: 4.4,
     ratingCount: "3,25,114",
     assured: true,
@@ -343,14 +360,15 @@ export const Dataset = [
     warranty: "1 year warranty by HP",
   },
 
-//   ============================================================================================================
+  //   ============================================================================================================
 
   // Wakefit
   {
     name: "Wakefit Memory Foam Queen Size Mattress",
     brand: "Wakefit",
     category: "Home",
-    image: "https://ik.imagekit.io/2xkwa8s1i/img/WFXGSM/WFXGSM_LS_4.jpg?tr=w-1200",
+    image:
+      "https://ik.imagekit.io/2xkwa8s1i/img/WFXGSM/WFXGSM_LS_4.jpg?tr=w-1200",
     rating: 4.4,
     ratingCount: "1,45,221",
     assured: true,
@@ -366,7 +384,8 @@ export const Dataset = [
     name: "Wakefit Adjustable Orthopedic Pillow (Set of 2)",
     brand: "Wakefit",
     category: "Home",
-    image: "https://ik.imagekit.io/2xkwa8s1i/img/npl_modified_images/Wedge_pillowNew/WWPMFADB/WWPMFADB_LS_1.jpg?tr=w-3840",
+    image:
+      "https://ik.imagekit.io/2xkwa8s1i/img/npl_modified_images/Wedge_pillowNew/WWPMFADB/WWPMFADB_LS_1.jpg?tr=w-3840",
     rating: 4.3,
     ratingCount: "92,418",
     assured: true,
@@ -384,7 +403,8 @@ export const Dataset = [
     name: "Godrej Interio Slimline 3 Door Steel Almirah",
     brand: "Godrej",
     category: "Home",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5LKj1I45dOXKQDGM-ArMjv3qIhY60Y9OTg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5LKj1I45dOXKQDGM-ArMjv3qIhY60Y9OTg&s",
     rating: 4.2,
     ratingCount: "34,219",
     assured: true,
@@ -400,7 +420,8 @@ export const Dataset = [
     name: "Godrej Aer Power Pocket Bathroom Fragrance (Set of 4)",
     brand: "Godrej",
     category: "Home",
-    image: "https://www.bbassets.com/media/uploads/p/l/40105938_7-godrej-aer-power-pocket-long-lasting-bathroom-fragrance-floral-delight.jpg",
+    image:
+      "https://www.bbassets.com/media/uploads/p/l/40105938_7-godrej-aer-power-pocket-long-lasting-bathroom-fragrance-floral-delight.jpg",
     rating: 4.4,
     ratingCount: "1,18,992",
     assured: true,
@@ -418,7 +439,8 @@ export const Dataset = [
     name: "Prestige Deluxe Alpha Stainless Steel Pressure Cooker (5L)",
     brand: "Prestige",
     category: "Home",
-    image: "https://shop.ttkprestige.com/media/catalog/product/3/8/3820-20256-IMG1.jpg?optimize=medium&fit=bounds&height=450&width=450",
+    image:
+      "https://shop.ttkprestige.com/media/catalog/product/3/8/3820-20256-IMG1.jpg?optimize=medium&fit=bounds&height=450&width=450",
     rating: 4.5,
     ratingCount: "2,35,771",
     assured: true,
@@ -434,7 +456,8 @@ export const Dataset = [
     name: "Prestige Atlas 750W Mixer Grinder (3 Jars)",
     brand: "Prestige",
     category: "Home",
-    image: "https://shop.ttkprestige.com/media/catalog/product/3/3/3394-42568-IMG1.jpg?optimize=medium&fit=bounds&height=450&width=450",
+    image:
+      "https://shop.ttkprestige.com/media/catalog/product/3/3/3394-42568-IMG1.jpg?optimize=medium&fit=bounds&height=450&width=450",
     rating: 4.3,
     ratingCount: "1,52,344",
     assured: true,
@@ -452,7 +475,8 @@ export const Dataset = [
     name: "Urban Ladder Venice 3 Seater Fabric Sofa",
     brand: "Urban Ladder",
     category: "Home",
-    image: "https://images-eu.ssl-images-amazon.com/images/I/71kx56BxLfL._AC_UL495_SR435,495_.jpg",
+    image:
+      "https://images-eu.ssl-images-amazon.com/images/I/71kx56BxLfL._AC_UL495_SR435,495_.jpg",
     rating: 4.1,
     ratingCount: "18,210",
     assured: true,
@@ -468,7 +492,8 @@ export const Dataset = [
     name: "Urban Ladder Engineered Wood Coffee Table",
     brand: "Urban Ladder",
     category: "Home",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjsrXT5ynqUd0x9UvakA1On1G8Dgdjp34PA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJjsrXT5ynqUd0x9UvakA1On1G8Dgdjp34PA&s",
     rating: 4.2,
     ratingCount: "22,841",
     assured: true,
@@ -486,7 +511,8 @@ export const Dataset = [
     name: "Philips 9W LED Smart Bulb (Pack of 2)",
     brand: "Philips",
     category: "Home",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNC7XcuuNZevLQjDWphD3iaP4ZzsJGbiz2FQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNC7XcuuNZevLQjDWphD3iaP4ZzsJGbiz2FQ&s",
     rating: 4.4,
     ratingCount: "2,95,118",
     assured: true,
@@ -502,7 +528,8 @@ export const Dataset = [
     name: "Philips Steam Iron GC1905 1440-Watt",
     brand: "Philips",
     category: "Home",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFm7ZGPit5S7sU-Gstvbujpl-dxonvgpVRw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFm7ZGPit5S7sU-Gstvbujpl-dxonvgpVRw&s",
     rating: 4.3,
     ratingCount: "1,08,442",
     assured: true,
@@ -517,13 +544,13 @@ export const Dataset = [
 
   //   ============================================================================================================
 
-
   // MEN
   {
     name: "Levi's Men Slim Fit Jeans",
     brand: "Levi's",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgH1RHTdY-KTVzcr2uth4_CppmTxjXPMtHw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgH1RHTdY-KTVzcr2uth4_CppmTxjXPMtHw&s",
     rating: 4.3,
     ratingCount: "76,981",
     assured: true,
@@ -539,7 +566,8 @@ export const Dataset = [
     name: "Roadster Men Cotton Casual Shirt",
     brand: "Roadster",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9ugMBOLnyc1q0b78Lz-LV6eN-zpYgk-NuA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd9ugMBOLnyc1q0b78Lz-LV6eN-zpYgk-NuA&s",
     rating: 4.2,
     ratingCount: "58,210",
     assured: true,
@@ -555,7 +583,8 @@ export const Dataset = [
     name: "Puma Men Regular Fit Track Pants",
     brand: "Puma",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhMpqn0C3LHqYHWMsrF5nzx-vlpF7dbgb6Q&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhMpqn0C3LHqYHWMsrF5nzx-vlpF7dbgb6Q&s",
     rating: 4.4,
     ratingCount: "41,872",
     assured: true,
@@ -571,7 +600,8 @@ export const Dataset = [
     name: "HRX Men Running Sports T-Shirt",
     brand: "HRX",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCW74OpEFNsAXaUmlVUDkR-OXvyoPkKMKEkg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCW74OpEFNsAXaUmlVUDkR-OXvyoPkKMKEkg&s",
     rating: 4.3,
     ratingCount: "63,118",
     assured: true,
@@ -589,7 +619,8 @@ export const Dataset = [
     name: "Biba Women Printed Anarkali Kurta",
     brand: "Biba",
     category: "Fashion",
-    image: "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/26493726/2024/2/29/0ac9543a-1d71-4ae3-8cdf-f3732edf1ff31709199269562-Biba-Floral-Printed-Pleated-Anarkali-Kurta--Churidar-With-Du-3.jpg",
+    image:
+      "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/26493726/2024/2/29/0ac9543a-1d71-4ae3-8cdf-f3732edf1ff31709199269562-Biba-Floral-Printed-Pleated-Anarkali-Kurta--Churidar-With-Du-3.jpg",
     rating: 4.4,
     ratingCount: "84,332",
     assured: true,
@@ -605,7 +636,8 @@ export const Dataset = [
     name: "ONLY Women Skinny Fit Jeans",
     brand: "ONLY",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqZhVBMwHHf17-FUs7fgK0rS-3Ez8kbpt-w&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvqZhVBMwHHf17-FUs7fgK0rS-3Ez8kbpt-w&s",
     rating: 4.3,
     ratingCount: "39,874",
     assured: true,
@@ -621,7 +653,8 @@ export const Dataset = [
     name: "H&M Women Ribbed Crop Top",
     brand: "H&M",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ40oFndZ9qxw0scpgtVrauzBMYnxsXULUZw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ40oFndZ9qxw0scpgtVrauzBMYnxsXULUZw&s",
     rating: 4.2,
     ratingCount: "52,118",
     assured: true,
@@ -637,7 +670,8 @@ export const Dataset = [
     name: "Zara Women A-Line Midi Dress",
     brand: "Zara",
     category: "Fashion",
-    image: "https://static.zara.net/assets/public/794d/7071/ee6f4ddc82eb/892b3521a013/08620134330-p/08620134330-p.jpg?ts=1753885471554&w=352&f=auto",
+    image:
+      "https://static.zara.net/assets/public/794d/7071/ee6f4ddc82eb/892b3521a013/08620134330-p/08620134330-p.jpg?ts=1753885471554&w=352&f=auto",
     rating: 4.5,
     ratingCount: "27,882",
     assured: true,
@@ -655,7 +689,8 @@ export const Dataset = [
     name: "U.S. Polo Assn Boys Casual Polo T-Shirt",
     brand: "U.S. Polo Assn",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu5SYGEWCqeuNeHkHnRGZGKwaCcQ-P0g7_aQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu5SYGEWCqeuNeHkHnRGZGKwaCcQ-P0g7_aQ&s",
     rating: 4.3,
     ratingCount: "22,109",
     assured: true,
@@ -671,7 +706,8 @@ export const Dataset = [
     name: "Max Boys Printed Cotton Shorts",
     brand: "Max",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYdKSRrnCQOSTukptOJKTkG2ICfOAIUEERA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXYdKSRrnCQOSTukptOJKTkG2ICfOAIUEERA&s",
     rating: 4.2,
     ratingCount: "18,445",
     assured: true,
@@ -687,7 +723,8 @@ export const Dataset = [
     name: "Puma Boys Hooded Sweatshirt",
     brand: "Puma",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZuSzNJWvCqAofUXZuMoYy1rIEVR-wFT-Ww&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZuSzNJWvCqAofUXZuMoYy1rIEVR-wFT-Ww&s",
     rating: 4.4,
     ratingCount: "16,882",
     assured: true,
@@ -703,7 +740,8 @@ export const Dataset = [
     name: "Allen Solly Boys Slim Fit Trousers",
     brand: "Allen Solly",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-A_cxf6mBYOoId8sB_9g6ETxeBlb7h2POw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-A_cxf6mBYOoId8sB_9g6ETxeBlb7h2POw&s",
     rating: 4.3,
     ratingCount: "14,992",
     assured: true,
@@ -721,7 +759,8 @@ export const Dataset = [
     name: "Global Desi Girls Printed Ethnic Dress",
     brand: "Global Desi",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2kV-U8qmGUWLclqQ24Xzyt5yvDd6VnoRl_Q&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2kV-U8qmGUWLclqQ24Xzyt5yvDd6VnoRl_Q&s",
     rating: 4.4,
     ratingCount: "19,228",
     assured: true,
@@ -737,7 +776,8 @@ export const Dataset = [
     name: "Hopscotch Girls Party Wear Frock",
     brand: "Hopscotch",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhJZd7o-KzmsACM8oJ2qy_HxWReuLrRBabw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhJZd7o-KzmsACM8oJ2qy_HxWReuLrRBabw&s",
     rating: 4.5,
     ratingCount: "24,991",
     assured: true,
@@ -753,7 +793,8 @@ export const Dataset = [
     name: "H&M Girls Cotton Leggings",
     brand: "H&M",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWtp27pREWDwYwe9MN11mqmE0L2GguAV2OA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWtp27pREWDwYwe9MN11mqmE0L2GguAV2OA&s",
     rating: 4.2,
     ratingCount: "21,778",
     assured: true,
@@ -769,7 +810,8 @@ export const Dataset = [
     name: "Max Girls Graphic Sweatshirt",
     brand: "Max",
     category: "Fashion",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbQukSFkEEFNIGGV7WwuE64S5R51f-TxZmA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbQukSFkEEFNIGGV7WwuE64S5R51f-TxZmA&s",
     rating: 4.3,
     ratingCount: "17,109",
     assured: true,
@@ -783,76 +825,80 @@ export const Dataset = [
   },
 
   // MEN
-{
-  name: "Van Heusen Men Formal Slim Fit Blazer",
-  brand: "Van Heusen",
-  category: "Fashion",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSpJUN6R3vZI81EU3s7fPB5oQahABMTFruVg&s",
-  rating: 4.4,
-  ratingCount: "12,884",
-  assured: true,
-  discountPercent: 35,
-  originalPrice: 7999,
-  sellingPrice: 5199,
-  wowPrice: 4999,
-  exchangeOffer: "No Exchange",
-  deliveryText: "Delivery in 2 Days",
-  warranty: "Brand Warranty",
-},
+  {
+    name: "Van Heusen Men Formal Slim Fit Blazer",
+    brand: "Van Heusen",
+    category: "Fashion",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSpJUN6R3vZI81EU3s7fPB5oQahABMTFruVg&s",
+    rating: 4.4,
+    ratingCount: "12,884",
+    assured: true,
+    discountPercent: 35,
+    originalPrice: 7999,
+    sellingPrice: 5199,
+    wowPrice: 4999,
+    exchangeOffer: "No Exchange",
+    deliveryText: "Delivery in 2 Days",
+    warranty: "Brand Warranty",
+  },
 
-// WOMEN
-{
-  name: "Libas Women Cotton Kurta Pant Set",
-  brand: "Libas",
-  category: "Fashion",
-  image: "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/14602274/2024/4/30/821d62bd-d097-4c3f-9278-09440fab5c8b1714451757601-Libas-Women-Blue-Ethnic-Motifs-Printed-Pure-Cotton-Kurta-wit-11.jpg",
-  rating: 4.5,
-  ratingCount: "56,441",
-  assured: true,
-  discountPercent: 50,
-  originalPrice: 3599,
-  sellingPrice: 1799,
-  wowPrice: 1699,
-  exchangeOffer: "No Exchange",
-  deliveryText: "Delivery by Tomorrow",
-  warranty: "Brand Warranty",
-},
+  // WOMEN
+  {
+    name: "Libas Women Cotton Kurta Pant Set",
+    brand: "Libas",
+    category: "Fashion",
+    image:
+      "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/14602274/2024/4/30/821d62bd-d097-4c3f-9278-09440fab5c8b1714451757601-Libas-Women-Blue-Ethnic-Motifs-Printed-Pure-Cotton-Kurta-wit-11.jpg",
+    rating: 4.5,
+    ratingCount: "56,441",
+    assured: true,
+    discountPercent: 50,
+    originalPrice: 3599,
+    sellingPrice: 1799,
+    wowPrice: 1699,
+    exchangeOffer: "No Exchange",
+    deliveryText: "Delivery by Tomorrow",
+    warranty: "Brand Warranty",
+  },
 
-// BOYS
-{
-  name: "Pepe Jeans Boys Denim Jacket",
-  brand: "Pepe Jeans",
-  category: "Fashion",
-  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf33jR7PfvlKT9_MxC85jHdjROX4e0Do6Yjg&s",
-  rating: 4.3,
-  ratingCount: "9,774",
-  assured: true,
-  discountPercent: 40,
-  originalPrice: 3299,
-  sellingPrice: 1979,
-  wowPrice: 1899,
-  exchangeOffer: "No Exchange",
-  deliveryText: "Delivery in 2 Days",
-  warranty: "Brand Warranty",
-},
+  // BOYS
+  {
+    name: "Pepe Jeans Boys Denim Jacket",
+    brand: "Pepe Jeans",
+    category: "Fashion",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf33jR7PfvlKT9_MxC85jHdjROX4e0Do6Yjg&s",
+    rating: 4.3,
+    ratingCount: "9,774",
+    assured: true,
+    discountPercent: 40,
+    originalPrice: 3299,
+    sellingPrice: 1979,
+    wowPrice: 1899,
+    exchangeOffer: "No Exchange",
+    deliveryText: "Delivery in 2 Days",
+    warranty: "Brand Warranty",
+  },
 
-// GIRLS
-{
-  name: "Pantaloons Girls Winter Night Suit Set",
-  brand: "Pantaloons",
-  category: "Fashion",
-  image: "https://rukminim2.flixcart.com/image/368/490/xif0q/night-suit/y/0/8/xxl-the001-the-orange-shopee-original-imah5y2eegbrryus.jpeg?q=90&crop=false",
-  rating: 4.4,
-  ratingCount: "13,662",
-  assured: true,
-  discountPercent: 45,
-  originalPrice: 1999,
-  sellingPrice: 1099,
-  wowPrice: 1049,
-  exchangeOffer: "No Exchange",
-  deliveryText: "Delivery by Tomorrow",
-  warranty: "Brand Warranty",
-},
+  // GIRLS
+  {
+    name: "Pantaloons Girls Winter Night Suit Set",
+    brand: "Pantaloons",
+    category: "Fashion",
+    image:
+      "https://rukminim2.flixcart.com/image/368/490/xif0q/night-suit/y/0/8/xxl-the001-the-orange-shopee-original-imah5y2eegbrryus.jpeg?q=90&crop=false",
+    rating: 4.4,
+    ratingCount: "13,662",
+    assured: true,
+    discountPercent: 45,
+    originalPrice: 1999,
+    sellingPrice: 1099,
+    wowPrice: 1049,
+    exchangeOffer: "No Exchange",
+    deliveryText: "Delivery by Tomorrow",
+    warranty: "Brand Warranty",
+  },
 
   // beauty  ============================================================================================================
 
@@ -877,7 +923,8 @@ export const Dataset = [
     name: "Lakme 9 to 5 CC Cream SPF 30",
     brand: "Lakme",
     category: "Beauty",
-    image: "https://m.media-amazon.com/images/I/51C4xyQYkwL._AC_UF1000,1000_QL80_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/51C4xyQYkwL._AC_UF1000,1000_QL80_.jpg",
     rating: 4.4,
     ratingCount: "1,12,410",
     assured: true,
@@ -895,7 +942,8 @@ export const Dataset = [
     name: "Maybelline New York Colossal Kajal",
     brand: "Maybelline",
     category: "Beauty",
-    image: "https://www.newu.in/cdn/shop/products/6946537005757_Black_I0_1024x1024.jpg?v=1671174855",
+    image:
+      "https://www.newu.in/cdn/shop/products/6946537005757_Black_I0_1024x1024.jpg?v=1671174855",
     rating: 4.6,
     ratingCount: "2,45,998",
     assured: true,
@@ -911,7 +959,8 @@ export const Dataset = [
     name: "Maybelline Fit Me Matte + Poreless Foundation",
     brand: "Maybelline",
     category: "Beauty",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ski02DgBOVPZDf7R35-yx30UqHDEsYUUYg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ski02DgBOVPZDf7R35-yx30UqHDEsYUUYg&s",
     rating: 4.5,
     ratingCount: "1,89,331",
     assured: true,
@@ -929,7 +978,8 @@ export const Dataset = [
     name: "L'Oréal Paris Revitalift Hyaluronic Acid Serum",
     brand: "L'Oréal",
     category: "Beauty",
-    image: "https://www.newu.in/cdn/shop/products/6923700977264_1_1024x1024.jpg?v=1671099109",
+    image:
+      "https://www.newu.in/cdn/shop/products/6923700977264_1_1024x1024.jpg?v=1671099109",
     rating: 4.4,
     ratingCount: "67,882",
     assured: true,
@@ -945,7 +995,8 @@ export const Dataset = [
     name: "L'Oréal Paris Total Repair 5 Shampoo (650 ml)",
     brand: "L'Oréal",
     category: "Beauty",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3EM_gBD0bsuXrGcgRrYoHUqbpX3oMuf0Xw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3EM_gBD0bsuXrGcgRrYoHUqbpX3oMuf0Xw&s",
     rating: 4.3,
     ratingCount: "98,114",
     assured: true,
@@ -963,7 +1014,8 @@ export const Dataset = [
     name: "Mamaearth Onion Hair Oil for Hair Fall Control",
     brand: "Mamaearth",
     category: "Beauty",
-    image: "https://assets.myntassets.com/h_1440,q_75,w_1080/v1/assets/images/27131688/2024/12/7/f7b40a87-e5d8-4227-9c9e-0ede39c14df31733576634790-Mamaearth-3-Pcs-Onion-Hair-Oil-Shampoo--Conditioner-Combo-25-1.jpg",
+    image:
+      "https://assets.myntassets.com/h_1440,q_75,w_1080/v1/assets/images/27131688/2024/12/7/f7b40a87-e5d8-4227-9c9e-0ede39c14df31733576634790-Mamaearth-3-Pcs-Onion-Hair-Oil-Shampoo--Conditioner-Combo-25-1.jpg",
     rating: 4.2,
     ratingCount: "1,34,992",
     assured: true,
@@ -979,7 +1031,8 @@ export const Dataset = [
     name: "Mamaearth Ubtan Face Wash with Turmeric & Saffron",
     brand: "Mamaearth",
     category: "Beauty",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI30z4C6toX0JZHoOUYc3kzRF_SrePhVCUdQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI30z4C6toX0JZHoOUYc3kzRF_SrePhVCUdQ&s",
     rating: 4.3,
     ratingCount: "1,09,223",
     assured: true,
@@ -997,7 +1050,8 @@ export const Dataset = [
     name: "Nivea Soft Light Moisturising Cream",
     brand: "Nivea",
     category: "Beauty",
-    image: "https://fetchnbuy.in/cdn/shop/files/Moisturizer-JojobaOil_grande.jpg?v=1721117727",
+    image:
+      "https://fetchnbuy.in/cdn/shop/files/Moisturizer-JojobaOil_grande.jpg?v=1721117727",
     rating: 4.4,
     ratingCount: "2,01,118",
     assured: true,
@@ -1013,7 +1067,8 @@ export const Dataset = [
     name: "Nivea Men Fresh Active Deodorant Spray",
     brand: "Nivea",
     category: "Beauty",
-    image: "https://m.media-amazon.com/images/I/613amvyExPL._AC_UF350,350_QL80_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/613amvyExPL._AC_UF350,350_QL80_.jpg",
     rating: 4.3,
     ratingCount: "88,442",
     assured: true,
@@ -1025,14 +1080,15 @@ export const Dataset = [
     deliveryText: "Delivery by Tomorrow",
     warranty: "NA",
   },
-  
+
   //vehicel   ============================================================================================================
   // Hero
   {
     name: "Hero Xtreme 160R Bike Helmet",
     brand: "Hero",
     category: "Vehicles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHRj59TAa4rlaIF_jDeEn2qK51NVht-Kbl9w&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHRj59TAa4rlaIF_jDeEn2qK51NVht-Kbl9w&s",
     rating: 4.2,
     ratingCount: "18,441",
     assured: true,
@@ -1048,7 +1104,8 @@ export const Dataset = [
     name: "Hero Waterproof Bike Body Cover",
     brand: "Hero",
     category: "Vehicles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg75bRObPOZR7ZnYnhs4_GPH_tv9H3QUFGwQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg75bRObPOZR7ZnYnhs4_GPH_tv9H3QUFGwQ&s",
     rating: 4.1,
     ratingCount: "25,118",
     assured: true,
@@ -1066,7 +1123,8 @@ export const Dataset = [
     name: "Bosch Aerotwin Car Wiper Blade Set",
     brand: "Bosch",
     category: "Vehicles",
-    image: "https://www.partsbigboss.in/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/i/m/wiper_blade_13_aerotwin_set_of_2_bosch_.jpg",
+    image:
+      "https://www.partsbigboss.in/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/i/m/wiper_blade_13_aerotwin_set_of_2_bosch_.jpg",
     rating: 4.4,
     ratingCount: "42,994",
     assured: true,
@@ -1082,7 +1140,8 @@ export const Dataset = [
     name: "Bosch C70B Car Battery Charger",
     brand: "Bosch",
     category: "Vehicles",
-    image: "https://m.media-amazon.com/images/I/61YR76vHQOL._AC_UF1000,1000_QL80_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/61YR76vHQOL._AC_UF1000,1000_QL80_.jpg",
     rating: 4.3,
     ratingCount: "11,772",
     assured: true,
@@ -1100,7 +1159,8 @@ export const Dataset = [
     name: "Michelin High Performance Tubeless Car Tyre",
     brand: "Michelin",
     category: "Vehicles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3ExiDY17mGNfAuqgGiVLloTJSj3FWa27tA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3ExiDY17mGNfAuqgGiVLloTJSj3FWa27tA&s",
     rating: 4.5,
     ratingCount: "9,441",
     assured: true,
@@ -1116,7 +1176,8 @@ export const Dataset = [
     name: "Michelin Digital Tyre Pressure Gauge",
     brand: "Michelin",
     category: "Vehicles",
-    image: "https://cdn.media.halfords.com/i/washford/847308/Michelin-Programmable-Digital-Tyre-Pressure-Gauge?$sfcc_tile_featured$&w=884",
+    image:
+      "https://cdn.media.halfords.com/i/washford/847308/Michelin-Programmable-Digital-Tyre-Pressure-Gauge?$sfcc_tile_featured$&w=884",
     rating: 4.3,
     ratingCount: "21,998",
     assured: true,
@@ -1134,7 +1195,8 @@ export const Dataset = [
     name: "Apollo Actigrip Bike Tyre",
     brand: "Apollo",
     category: "Vehicles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDaBpqBKuu0bvtRNIPndMrGUBq78ktFg7o9w&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDaBpqBKuu0bvtRNIPndMrGUBq78ktFg7o9w&s",
     rating: 4.2,
     ratingCount: "13,884",
     assured: true,
@@ -1150,7 +1212,8 @@ export const Dataset = [
     name: "Apollo Tyres Portable Air Inflator",
     brand: "Apollo",
     category: "Vehicles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgVKS-eUXMaaBFzmwubBYTiJdnWAPrgJz0UQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgVKS-eUXMaaBFzmwubBYTiJdnWAPrgJz0UQ&s",
     rating: 4.4,
     ratingCount: "19,228",
     assured: true,
@@ -1168,7 +1231,8 @@ export const Dataset = [
     name: "Autofy Bike Mobile Holder with USB Charger",
     brand: "Autofy",
     category: "Vehicles",
-    image: "https://m.media-amazon.com/images/I/71KaJPrl6hL._AC_UF1000,1000_QL80_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/71KaJPrl6hL._AC_UF1000,1000_QL80_.jpg",
     rating: 4.3,
     ratingCount: "58,119",
     assured: true,
@@ -1184,7 +1248,8 @@ export const Dataset = [
     name: "Autofy Car Dashboard Camera Full HD",
     brand: "Autofy",
     category: "Vehicles",
-    image: "https://www.jiomart.com/images/product/original/rv6jdhyxgt/ausha-full-hd-dashboard-dash-cam-for-car-with-loop-recording-g-sensor-motion-detection-night-vision-car-dvr-product-images-orv6jdhyxgt-p597941938-0-202404181332.jpg?im=Resize=(420,420)",
+    image:
+      "https://www.jiomart.com/images/product/original/rv6jdhyxgt/ausha-full-hd-dashboard-dash-cam-for-car-with-loop-recording-g-sensor-motion-detection-night-vision-car-dvr-product-images-orv6jdhyxgt-p597941938-0-202404181332.jpg?im=Resize=(420,420)",
     rating: 4.2,
     ratingCount: "14,554",
     assured: true,
@@ -1197,7 +1262,6 @@ export const Dataset = [
     warranty: "1 year warranty",
   },
 
-  
   // sports  ============================================================================================================
 
   // SG
@@ -1205,7 +1269,8 @@ export const Dataset = [
     name: "SG Cricket Bat Kashmir Willow",
     brand: "SG",
     category: "Sports",
-    image: "https://shop.teamsg.in/cdn/shop/files/Unnamed_design_6_b5eb4e3b-219e-49cf-b2cf-b8cf54bc6c3f.png?v=1751111960&width=1946",
+    image:
+      "https://shop.teamsg.in/cdn/shop/files/Unnamed_design_6_b5eb4e3b-219e-49cf-b2cf-b8cf54bc6c3f.png?v=1751111960&width=1946",
     rating: 4.4,
     ratingCount: "21,342",
     assured: true,
@@ -1221,7 +1286,8 @@ export const Dataset = [
     name: "SG Test Cricket Leather Ball (Pack of 2)",
     brand: "SG",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7UbUX5Tt7M9txfLM5yZMpgW0dkV2NKvUeOw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7UbUX5Tt7M9txfLM5yZMpgW0dkV2NKvUeOw&s",
     rating: 4.3,
     ratingCount: "18,214",
     assured: true,
@@ -1239,7 +1305,8 @@ export const Dataset = [
     name: "Nivia Storm Football Size 5",
     brand: "Nivia",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8lmzqOS7G1f2JDDCxURfgd_Lm9v-cdkQDg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr8lmzqOS7G1f2JDDCxURfgd_Lm9v-cdkQDg&s",
     rating: 4.2,
     ratingCount: "32,118",
     assured: true,
@@ -1255,7 +1322,8 @@ export const Dataset = [
     name: "Nivia Carbonite Badminton Racket",
     brand: "Nivia",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMmMVaVlOEmmyZdlZsrwxGjLGayKB8FCrHQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMmMVaVlOEmmyZdlZsrwxGjLGayKB8FCrHQ&s",
     rating: 4.3,
     ratingCount: "24,665",
     assured: true,
@@ -1273,7 +1341,8 @@ export const Dataset = [
     name: "Adidas Men Running Sports Shoes",
     brand: "Adidas",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yfiXVG0ipkWlGYmYeCp-Emoxtl-vAvWPAQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5yfiXVG0ipkWlGYmYeCp-Emoxtl-vAvWPAQ&s",
     rating: 4.5,
     ratingCount: "45,772",
     assured: true,
@@ -1289,7 +1358,8 @@ export const Dataset = [
     name: "Adidas Training Gym Gloves",
     brand: "Adidas",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uvf-3b3i-34DXxOrC2-IyUJOMv2gWYRJLw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uvf-3b3i-34DXxOrC2-IyUJOMv2gWYRJLw&s",
     rating: 4.4,
     ratingCount: "19,118",
     assured: true,
@@ -1307,7 +1377,8 @@ export const Dataset = [
     name: "Cosco Premium Volleyball",
     brand: "Cosco",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUwlwctf2zVXN4D_j5YnQMmFWqeBdS1yfynw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUwlwctf2zVXN4D_j5YnQMmFWqeBdS1yfynw&s",
     rating: 4.3,
     ratingCount: "15,442",
     assured: true,
@@ -1323,7 +1394,8 @@ export const Dataset = [
     name: "Cosco Adjustable Skipping Rope",
     brand: "Cosco",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZzwnEkwVAw5Sxo1O4A0eHBKILZGYS2QXQA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZzwnEkwVAw5Sxo1O4A0eHBKILZGYS2QXQA&s",
     rating: 4.4,
     ratingCount: "88,214",
     assured: true,
@@ -1341,7 +1413,8 @@ export const Dataset = [
     name: "Decathlon Domyos Yoga Mat 8mm",
     brand: "Decathlon",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCPFp780SNUX6az6_kNhimunmDP-FxWQ3okQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCPFp780SNUX6az6_kNhimunmDP-FxWQ3okQ&s",
     rating: 4.5,
     ratingCount: "1,02,994",
     assured: true,
@@ -1357,7 +1430,8 @@ export const Dataset = [
     name: "Decathlon Rockrider Cycling Helmet",
     brand: "Decathlon",
     category: "Sports",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn80ycywswfpN6LG70NOSumcI4CV9X9LkMw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn80ycywswfpN6LG70NOSumcI4CV9X9LkMw&s",
     rating: 4.4,
     ratingCount: "27,118",
     assured: true,
@@ -1370,14 +1444,14 @@ export const Dataset = [
     warranty: "Manufacturer Warranty",
   },
 
-
   // books   ============================================================================================================
 
   {
     name: "Atomic Habits by James Clear",
     brand: "James Clear",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlh7JAq4-g8M7cpagZCAyJyCmxA-8X8XqmKQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlh7JAq4-g8M7cpagZCAyJyCmxA-8X8XqmKQ&s",
     rating: 4.7,
     ratingCount: "4,25,881",
     assured: true,
@@ -1393,7 +1467,8 @@ export const Dataset = [
     name: "The Psychology of Money by Morgan Housel",
     brand: "Morgan Housel",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGBc703q0sYNdxUXgZxzgiN-I0pW_pPD7j0Q&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGBc703q0sYNdxUXgZxzgiN-I0pW_pPD7j0Q&s",
     rating: 4.6,
     ratingCount: "3,11,442",
     assured: true,
@@ -1409,7 +1484,8 @@ export const Dataset = [
     name: "Rich Dad Poor Dad by Robert Kiyosaki",
     brand: "Robert Kiyosaki",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXQU7IvvJEuYGyRkZKxd--__xDnUmibOOH5A&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXQU7IvvJEuYGyRkZKxd--__xDnUmibOOH5A&s",
     rating: 4.6,
     ratingCount: "5,12,118",
     assured: true,
@@ -1425,7 +1501,8 @@ export const Dataset = [
     name: "Ikigai by Hector Garcia & Francesc Miralles",
     brand: "Hector Garcia",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaid2IRXRvR5L42msCI6Ddzt68nABHoKB-g&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaid2IRXRvR5L42msCI6Ddzt68nABHoKB-g&s",
     rating: 4.5,
     ratingCount: "2,95,771",
     assured: true,
@@ -1441,7 +1518,8 @@ export const Dataset = [
     name: "Think Like a Monk by Jay Shetty",
     brand: "Jay Shetty",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Iju9NczA06g6PP6o9DKjcIZMPpK1EeH5TQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Iju9NczA06g6PP6o9DKjcIZMPpK1EeH5TQ&s",
     rating: 4.4,
     ratingCount: "1,88,442",
     assured: true,
@@ -1457,7 +1535,8 @@ export const Dataset = [
     name: "The Alchemist by Paulo Coelho",
     brand: "Paulo Coelho",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz_LjCHPGl5Xm2tO2TiNf01LRqbvUBRT_5gQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz_LjCHPGl5Xm2tO2TiNf01LRqbvUBRT_5gQ&s",
     rating: 4.6,
     ratingCount: "6,45,331",
     assured: true,
@@ -1473,7 +1552,8 @@ export const Dataset = [
     name: "Harry Potter and the Philosopher's Stone",
     brand: "J.K. Rowling",
     category: "Books",
-    image: "https://www.crossword.in/cdn/shop/products/crosswordonline-books-default-name-harry-potter-and-the-philosopher-s-stone-j-k-rowling-40421717704921.jpg?v=1745732396",
+    image:
+      "https://www.crossword.in/cdn/shop/products/crosswordonline-books-default-name-harry-potter-and-the-philosopher-s-stone-j-k-rowling-40421717704921.jpg?v=1745732396",
     rating: 4.8,
     ratingCount: "7,88,991",
     assured: true,
@@ -1489,7 +1569,8 @@ export const Dataset = [
     name: "The Power of Your Subconscious Mind by Joseph Murphy",
     brand: "Joseph Murphy",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqufoRYmCymny12QSnbYlbMBiyj_3hhBT8Q&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqufoRYmCymny12QSnbYlbMBiyj_3hhBT8Q&s",
     rating: 4.5,
     ratingCount: "4,01,229",
     assured: true,
@@ -1505,7 +1586,8 @@ export const Dataset = [
     name: "Do Epic Shit by Ankur Warikoo",
     brand: "Ankur Warikoo",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXA-qA1Xjg5ZeKtlT9LPexzWvzgYzVgXRv7w&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXA-qA1Xjg5ZeKtlT9LPexzWvzgYzVgXRv7w&s",
     rating: 4.4,
     ratingCount: "1,55,884",
     assured: true,
@@ -1521,7 +1603,8 @@ export const Dataset = [
     name: "NCERT Class 10 Science Textbook",
     brand: "NCERT",
     category: "Books",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH_hp2pUHgcWP10xT8kzb81gwpNhGVhyvgzQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH_hp2pUHgcWP10xT8kzb81gwpNhGVhyvgzQ&s",
     rating: 4.3,
     ratingCount: "92,118",
     assured: true,
@@ -1534,7 +1617,6 @@ export const Dataset = [
     warranty: "NA",
   },
 
-
   // toys   ============================================================================================================
 
   // LEGO
@@ -1542,7 +1624,8 @@ export const Dataset = [
     name: "LEGO Classic Creative Bricks Set",
     brand: "LEGO",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqDcAxZvcjDCZO4FARFOStx132eBg1zOfI6w&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqDcAxZvcjDCZO4FARFOStx132eBg1zOfI6w&s",
     rating: 4.8,
     ratingCount: "32,781",
     assured: true,
@@ -1558,7 +1641,8 @@ export const Dataset = [
     name: "LEGO City Police Patrol Car",
     brand: "LEGO",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkhhZyyoGvyhhWLP6SfSeKlyHzzN7GG9mLYg&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkhhZyyoGvyhhWLP6SfSeKlyHzzN7GG9mLYg&s",
     rating: 4.7,
     ratingCount: "21,118",
     assured: true,
@@ -1592,7 +1676,8 @@ export const Dataset = [
     name: "Hot Wheels Monster Truck Toy Car",
     brand: "Hot Wheels",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbD9D9b8eC9E8CC3y1KacXjOUyWwwaxlOLqw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbD9D9b8eC9E8CC3y1KacXjOUyWwwaxlOLqw&s",
     rating: 4.5,
     ratingCount: "39,882",
     assured: true,
@@ -1610,7 +1695,8 @@ export const Dataset = [
     name: "Funskool Doctor Play Set",
     brand: "Funskool",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDAzZuZHFYEcUWEIrHTe38Q3HYFhNG53fuWQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDAzZuZHFYEcUWEIrHTe38Q3HYFhNG53fuWQ&s",
     rating: 4.4,
     ratingCount: "18,771",
     assured: true,
@@ -1626,7 +1712,8 @@ export const Dataset = [
     name: "Funskool Educational Building Blocks",
     brand: "Funskool",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWkGxCKehvCXA2Z9DzRauIJAa7vMk2-jClXA&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWkGxCKehvCXA2Z9DzRauIJAa7vMk2-jClXA&s",
     rating: 4.5,
     ratingCount: "25,441",
     assured: true,
@@ -1644,7 +1731,8 @@ export const Dataset = [
     name: "Barbie Dreamtopia Princess Doll",
     brand: "Barbie",
     category: "Toys",
-    image: "https://images-cdn.ubuy.co.in/67dcf022484bcf032521a866-barbie-dreamtopia-doll.jpg",
+    image:
+      "https://images-cdn.ubuy.co.in/67dcf022484bcf032521a866-barbie-dreamtopia-doll.jpg",
     rating: 4.7,
     ratingCount: "41,115",
     assured: true,
@@ -1660,7 +1748,8 @@ export const Dataset = [
     name: "Barbie Fashion Accessories Pack",
     brand: "Barbie",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnOrjyvGp6Iw05e2qgmeUlvc7Ffx1YVp6oQ&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLnOrjyvGp6Iw05e2qgmeUlvc7Ffx1YVp6oQ&s",
     rating: 4.6,
     ratingCount: "22,884",
     assured: true,
@@ -1678,7 +1767,8 @@ export const Dataset = [
     name: "Fisher-Price Laugh & Learn Smart Tablet",
     brand: "Fisher-Price",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDj_lnPYb6uXXa7v4zmNG4WiDMAUoawgdW8Q&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDj_lnPYb6uXXa7v4zmNG4WiDMAUoawgdW8Q&s",
     rating: 4.6,
     ratingCount: "53,112",
     assured: true,
@@ -1694,7 +1784,8 @@ export const Dataset = [
     name: "Fisher-Price Musical Activity Walker",
     brand: "Fisher-Price",
     category: "Toys",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSprDbemmreYexpkUJnjue1Rq1U0_WRpOrLig&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSprDbemmreYexpkUJnjue1Rq1U0_WRpOrLig&s",
     rating: 4.7,
     ratingCount: "36,441",
     assured: true,
@@ -1706,7 +1797,4 @@ export const Dataset = [
     deliveryText: "Delivery in 3 Days",
     warranty: "NA",
   },
-
-
-
 ];
