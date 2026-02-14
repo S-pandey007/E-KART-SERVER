@@ -4,8 +4,8 @@ import debug from 'debug';
 import connectDB from './config/db.js'
 
 import userRouter from './routes/User.js'
-import categoryRouter from './routes/Category.js'
-import productRouter from './routes/Product.js'
+import categoryRouter from './routes/category/category.routes.js'
+import productRouter from './routes/product/product.route.js'
 import orderROuter from './routes/Order.js'
 import authRouter from './routes/auth/auth.routes.js'
 import profileRouter from './routes/user/user.routes.js'

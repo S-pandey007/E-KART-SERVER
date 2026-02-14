@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import { seedData, seedInfulancerData } from "../seedScript.js";
 import logger from "./logger.js";
+import newSeedData from "../newSeedScript.js";
 dotenv.config();
 
 const connectDB = async () => {
@@ -10,6 +11,7 @@ const connectDB = async () => {
     logger.info(`MongoDB connected: ${conn.connection.host}`);
     // seedData();
     // seedInfulancerData();
+    // newSeedData();
   } catch (error) {
     logger.error(`MongoDB connection error: ${error.message}`);
     process.exit(1); // Exit process with failure
